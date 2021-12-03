@@ -23,6 +23,7 @@ console.log("Starting task1 at: "+t1 % 100000); // Getting the time, taking modu
 
 // Asynchronous Callback
 fs.readFile(args.source, function(data){    // While the file is being read from the disk, Task2 will start executing at the same time as it is the working of CPU.
+// Task2 need not wait for Task1 to be completed for its execution.
 
     let t2 = Date.now(); 
     console.log("Starting task1 at: "+t2 % 100000);
