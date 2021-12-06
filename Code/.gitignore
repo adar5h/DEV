@@ -2,3 +2,5 @@ Classes/
 dummy.txt  
 big.data
 node_modules/
+package.json
+package-lock.json
