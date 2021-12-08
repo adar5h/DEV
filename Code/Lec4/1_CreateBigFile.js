@@ -13,7 +13,7 @@ for(let i = 0; i < 50000000; i++){
     arr.push(i);
 }
 
-let str = arr.join("\n"); // The array would be converted to a string with a distance of 1 line or whatever is given in between " " Just for funny purposes hahahhafjdljflfjsldjflkdfj fj aj aj;afj a; fa; dkdfa a jf la;j;f j; afjkas j;
+let str = arr.join("\n"); // The array would be converted to a string with a distance of 1 line or whatever is given in between " "";
 
 
 fs.writeFileSync(args.dest, str, "utf-8"); // Writing will overwrite the destination file //-> 420MB
