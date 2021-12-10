@@ -13,7 +13,7 @@ let json = fs.readFileSync(args.source, "utf-8"); // Reading the JSON file throu
 let teams = JSON.parse(json); // Creating an object of the JSO to JSO using JSON.parse(source).
 
 // Check documentation of new modules, don't cram them.
-let wb = new excel.Workbook(); // Creating new workboot, i.e. Excel sheet. 
+let wb = new excel.Workbook(); // Creating new workbook, i.e. Excel sheet. 
 
 for(let i = 0; i < teams.length; i++){
     let sheet = wb.addWorksheet(teams[i].team); // Will create a worksheet in the workbook of every object i's team name.
