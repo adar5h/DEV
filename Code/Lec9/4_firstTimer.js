@@ -13,7 +13,7 @@ let id = setInterval(function(){
             count--;
             
             if(count==0){
-                clearInterval(id);
+                clearInterval(id); // To stop the Interval.
                 console.log('>>>>>================================================>');
             }
 },time);
