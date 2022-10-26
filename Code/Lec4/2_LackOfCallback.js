@@ -1,7 +1,7 @@
 // Task1 -> Read a file (disk)
 // Task2 -> Calculate Primes (CPU)
 // Task2 will be done after Task1, which is not good.
-// node 2_LackOfCallback.js --source=big.data 
+// node 2_LackOfCallback.js --source=big.data --n=700000
 
 let minimist = require("minimist");
 let fs = require("fs");
